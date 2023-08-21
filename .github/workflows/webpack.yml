@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: build
+    - name: resume-builder
       run: |
         npm install
         npx webpack
